@@ -1,9 +1,12 @@
-##### 这个是react的基础架构 
+#### 克隆下来 直接npm install npm start
+
+#### 这个是react的基础架构 
 搭配了react react-redux react-router react-loadable redux-thunk redux redux-immutable
 
 使用官方脚手架 create-react-app创建，使用npm run eject 暴露webpack配置文件
 
-#####别名设置：
+#### 别名设置
+
 webpack.config.dev.js webpack.config.prod.js修改了别名 alias配置如下
 
     alias: {
@@ -17,10 +20,11 @@ webpack.config.dev.js webpack.config.prod.js修改了别名 alias配置如下
 
 这样就可以在项目中直接使用别名了比如：import { action  } from 'store/home'
 
-##### scss配置
+#### scss配置
+
 安装 node-sass 然后配置webpack
 
-##### 项目目录结构 主要介绍src目录
+#### 项目目录结构 主要介绍src目录
     src
         -components       //组件
         -pages            //页面级别
